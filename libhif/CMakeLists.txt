@@ -4,7 +4,7 @@ SET (LIBHIF_SRCS
     hif-advisory.c
     hy-goal.c
     hy-iutil.c
-    hy-nevra.c
+    hif-nevra.c
     hif-reldep.c
     hif-reldep-list.c
     hy-package.c
@@ -61,7 +61,7 @@ TARGET_LINK_LIBRARIES(hth libhif
 
 SET(LIBHAWKEY_headers
     hy-goal.h
-    hy-nevra.h
+    hif-nevra.h
     hy-package.h
     hy-packageset.h
     hy-query.h
@@ -82,6 +82,7 @@ SET(LIBHIF_headers
     hif-goal.h
     hif-keyring.h
     hif-lock.h
+    hif-nevra.h
     hif-package.h
     hif-packagedelta.h
     hif-repos.h
