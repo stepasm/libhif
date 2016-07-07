@@ -303,6 +303,8 @@ str2hif_advisory_kind(const char *str)
         return HIF_ADVISORY_KIND_ENHANCEMENT;
     if (!strcmp (str, "security"))
         return HIF_ADVISORY_KIND_SECURITY;
+    if (!strcmp (str, "newpackage"))
+        return HIF_ADVISORY_KIND_NEWPACKAGE;
     return HIF_ADVISORY_KIND_UNKNOWN;
 }
 

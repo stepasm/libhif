@@ -47,7 +47,8 @@ typedef enum {
         HIF_ADVISORY_KIND_UNKNOWN       = 0,        /* ordered by rough importance */
         HIF_ADVISORY_KIND_SECURITY      = 1,
         HIF_ADVISORY_KIND_BUGFIX        = 2,
-        HIF_ADVISORY_KIND_ENHANCEMENT   = 3
+        HIF_ADVISORY_KIND_ENHANCEMENT   = 3,
+        HIF_ADVISORY_KIND_NEWPACKAGE    = 4
 } HifAdvisoryKind;
 
 const char          *hif_advisory_get_title         (HifAdvisory *advisory);
